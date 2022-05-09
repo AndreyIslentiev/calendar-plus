@@ -36,9 +36,9 @@ foreach ( $event_groups as $events_by_date ) {
 								</div>
 								<?php if( $template_data['featured_image'] && has_post_thumbnail( $event->ID ) ):
 									?>
-									<div class="calendarp-event-thumbnail">
+                                    <div class="calendarp-event-thumbnail">
 										<?php echo get_the_post_thumbnail( $event->ID ); ?>
-									</div>
+                                    </div>
 								<?php endif; ?>
 							</div>
 						<?php endforeach; ?>
