@@ -28,8 +28,6 @@ class Calendar_Plus_Events_By_Category_Shortcode {
 			return;
 		}
 
-		calendarp_enqueue_public_script_and_styles();
-
 		wp_register_style(
 			'calendarp-events-by-cat',
 			calendarp_get_plugin_url() . 'public/css/calendar-plus-events-by-cat-shortcode.css',
